@@ -80,7 +80,6 @@ const AdminPage = () => {
             {<option>argent</option>}
             {<option>verre</option>}
             {<option>fer</option>}
-            {<option>cocaine</option>}
           </select>
           <div className='color-options'>
             {/* Render color options here */}
