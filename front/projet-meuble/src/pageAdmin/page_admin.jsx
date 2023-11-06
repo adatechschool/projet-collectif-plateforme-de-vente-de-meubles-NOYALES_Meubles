@@ -70,7 +70,6 @@ const AdminPage = () => {
             {<option>argent</option>}
             {<option>verre</option>}
             {<option>fer</option>}
-            {<option>cocaine</option>}
           </select>
           <select className='add-select'>
             <option>...</option>
