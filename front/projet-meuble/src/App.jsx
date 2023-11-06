@@ -6,6 +6,7 @@ import PagePrincipal from "./PagePrincipal/PagePrincipal.jsx";
 import Navbar from "./Navbar";
 import Cart from "./Cart";
 import TopButton from "./TopButton";
+import AdminPage from "./pageAdmin/page_admin";
 // import ShopCategory from "./ShopCategory";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/PageConnexion" element={<UserConnexion />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/product" element={<PagePrincipal />} />
+          <Route path="/pageAdmin" element={<AdminPage />} />
 
           {/* <Route  path="/Chaise" element={<ShopCategory category="chaise" /> } />
       <Route  path="/Table" element={<ShopCategory category="Table" /> } />

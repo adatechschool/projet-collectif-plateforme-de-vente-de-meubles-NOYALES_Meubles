@@ -26,6 +26,9 @@ function Navbar() {
             <li>
               <Link to="/cart">Cart</Link>
             </li>
+            <li>
+              <Link to="/pageAdmin">Admin</Link>
+            </li>
           </ul>
         </div>
       </nav>
